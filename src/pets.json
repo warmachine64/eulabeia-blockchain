@@ -5,126 +5,135 @@
     "picture": "images/token1.png",
     "category": "Hackathon",
     "code": "HACK_1",
+    "DATE":"202310",
     "description": "Bring new ideas and proof of concepts to life"
   },
   {
     "id": 1,
     "name": "CFMR",
     "picture": "images/token2.png",
-    "category": "Conference",
+    "category": "External Conference",
     "code": "ECONRF_3",
+    "DATE":"202310",
     "description": "Gathering of government and industry"
   },
   {
     "id": 2,
     "name": "DC Central Kitchen",
     "picture": "images/token3.png",
-    "category": "Hackathon",
-    "code": "VLTR_2",
-    "description": "2023 Service Month Volunteer event at DC Central"
+    "category": "Volunteer",
+    "code": "VLTR_1",
+    "DATE":"202310",
+    "description": "Assisting the DC Cental Kitchen with food preparation"
   },
-  {
+   {
     "id": 3,
-    "name": "Melissa",
-    "picture": "images/token2.png",
-    "category": "Hackathon",
-    "code": "HACK_1",
-    "description": "Bring new ideas and proof of concepts to life"
+    "name": "AWS Conference",
+    "picture": "images/token3.png",
+    "category": "External Conference",
+    "code": "ECONFR_1",
+    "DATE":"202310",
+    "description": "AWS reinvent is a conference hosted by AWS to learn the latest innovations and outcome from AWS and its Clients"
   },
   {
     "id": 4,
-    "name": "Jeanine",
+    "name": "ACFE Fraud Conference",
     "picture": "images/token3.png",
-    "category": "Hackathon",
-    "code": "HACK_1",
-    "description": "Bring new ideas and proof of concepts to life"
+    "category": "External Conference",
+    "code": "ECONFR_2",
+    "DATE":"202310",
+    "description": "The ACFE is the world's largest anti-fraud organization and premier provider of anti-fraud training and education"
   },
   {
     "id": 5,
-    "name": "Elvia",
+    "name": "FINRA Annual Conference",
     "picture": "images/token3.png",
-    "age": 3,
-    "breed": "French Bulldog",
-    "location": "Innsbrook, Illinois"
+    "category": "External Conference",
+    "code": "ECONFR_4",
+    "DATE":"202310",
+    "description": " Annual Conference provides the opportunity for practitioners, peers and regulators to exchange ideas"
   },
   {
     "id": 6,
-    "name": "Latisha",
-    "picture": "images/token1.png",
-    "category": "Hackathon",
-    "code": "HACK_1",
-    "description": "Bring new ideas and proof of concepts to life"
+    "name": "Squad Expo",
+    "picture": "images/token3.png",
+    "category": "Internal Conference",
+    "code": "CONFR_1",
+    "DATE":"202310",
+    "description": "Software quality assurance host  there new innovative solutuions"
   },
   {
     "id": 7,
-    "name": "Coleman",
-    "picture": "images/token1.png",
-    "age": 3,
-    "breed": "Golden Retriever",
-    "location": "Jacksonwald, Palau"
+    "name": "Big Data Conference",
+    "picture": "images/token3.png",
+    "category": "Internal Conference",
+    "code": "CONFR_2",
+    "DATE":"202310",
+    "description": "Presentation and interactive sessions with FINRA Big Data Engineers"
   },
   {
     "id": 8,
-    "name": "Nichole",
+    "name": "FINRA BOTS",
     "picture": "images/token3.png",
-    "age": 2,
-    "breed": "French Bulldog",
-    "location": "Honolulu, Hawaii"
+    "category": "Hackathan",
+    "code": "HACK_2",
+    "description": "Boss of the SOC is an engaging activity to answer a wide variety of questions related to security incidents in a fictitious enterprise environment."
   },
   {
     "id": 9,
-    "name": "Fran",
-    "picture": "images/token2.png",
-    "age": 3,
-    "breed": "Boxer",
-    "location": "Matheny, Utah"
+    "name": "Manna Food Center",
+    "picture": "images/token3.png",
+    "category": "Volunteer",
+    "code": "VLTR_2",
+    "description": "Gathering fresh product (likely apples or potatoes) from Butler’s Orchard for donation to Manna."
   },
   {
     "id": 10,
-    "name": "Leonor",
-    "picture": "images/token2.png",
-    "age": 2,
-    "breed": "Boxer",
-    "location": "Tyhee, Indiana"
+    "name": "Maryland foodbank",
+    "picture": "images/token3.png",
+    "category": "Volunteer",
+    "code": "VLTR_3",
+    "description": "Sort and pack donated items, including shelf-stable food, fresh produce, and toiletries"
   },
   {
     "id": 11,
-    "name": "Dean",
-    "picture": "images/token2.png",
-    "age": 3,
-    "breed": "Scottish Terrier",
-    "location": "Windsor, Montana"
+    "name": "Adventist HealthCare",
+    "picture": "images/token3.png",
+    "category": "Volunteer",
+    "code": "VLTR_4",
+    "description": "Group volunteering opportunities to support the Shady Grove Hospital Pediatrics Center"
   },
   {
     "id": 12,
-    "name": "Stevenson",
+    "name": "Team Picnic",
     "picture": "images/token3.png",
-    "age": 3,
-    "breed": "French Bulldog",
-    "location": "Kingstowne, Nevada"
+    "category": "Team Activity",
+    "code": "TEAM_1",
+    "description": "Organize and Volunteer for Team Picnic"
   },
   {
     "id": 13,
-    "name": "Kristina",
+    "name": "YearEnd Team holiday party",
     "picture": "images/token3.png",
-    "age": 4,
-    "breed": "Golden Retriever",
-    "location": "Sultana, Massachusetts"
+    "category": "Team Activity",
+    "code": "TEAM_2",
+    "description": "Organize Year End Holiday Party"
   },
   {
     "id": 14,
-    "name": "Ethel",
+    "name": "Holiday potluck",
     "picture": "images/token3.png",
-    "age": 2,
-    "breed": "Golden Retriever",
-    "location": "Broadlands, Oregon"
+    "category": "Team Activity",
+    "code": "TEAM_3",
+    "description": "Organize holiday team potluck"
   },
+  
   {
     "id": 15,
-    "name": "Terry",
+    "name": " Finra Family Network",
     "picture": "images/token3.png",
-    "age": 2,
-    "breed": "Golden Retriever",
-    "location": "Dawn, Wisconsin"
+    "category": "ERG",
+    "code": "VLTR_2",
+    "description": "Member and contributor to Finra Family Network"
   }
 ]
