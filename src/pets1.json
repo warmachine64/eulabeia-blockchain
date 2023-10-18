@@ -1,0 +1,47 @@
+﻿[
+  {
+    "id": 0,
+    "name": "Createathon 2023",
+    "picture": "images/token1.png",
+    "category": "Hackathon",
+    "code": "HACK_1",
+    "DATE":"202310",
+    "description": "Bring new ideas and proof of concepts to life"
+  },
+  {
+    "id": 1,
+    "name": "CFMR",
+    "picture": "images/token2.png",
+    "category": "External Conference",
+    "code": "ECONRF_3",
+    "DATE":"202310",
+    "description": "Gathering of government and industry"
+  },
+  {
+    "id": 2,
+    "name": "DC Central Kitchen",
+    "picture": "images/token3.png",
+    "category": "Volunteer",
+    "code": "VLTR_1",
+    "DATE":"202310",
+    "description": "Assisting the DC Cental Kitchen with food preparation"
+  },
+   {
+    "id": 3,
+    "name": "AWS Conference",
+    "picture": "images/token3.png",
+    "category": "External Conference",
+    "code": "ECONFR_1",
+    "DATE":"202310",
+    "description": "AWS user conference showcasing products and demos."
+  },
+  {
+    "id": 4,
+    "name": "ACFE Fraud Conference",
+    "picture": "images/token3.png",
+    "category": "External Conference",
+    "code": "ECONFR_2",
+    "DATE":"202310",
+    "description": "Premier conference for anti-fraud training and education"
+  }
+]
