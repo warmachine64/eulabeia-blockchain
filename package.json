@@ -1,18 +1,36 @@
 {
-  "name": "pet-shop",
+  "name": "nft-box",
   "version": "1.0.0",
-  "description": "",
-  "main": "truffle.js",
+  "description": "Boilerplate for creating an NFT collection",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "dev": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/truffle-box/nft-box.git"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/truffle-box/nft-box/issues"
+  },
+  "homepage": "https://github.com/truffle-box/nft-box#readme",
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.14.14",
+    "@mui/styled-engine-sc": "^6.0.0-alpha.2",
+    "@openzeppelin/contracts": "^4.5.0",
+    "@truffle/contract": "^4.6.31",
+    "dotenv": "^16.0.0",
+    "styled-components": "^6.1.0",
+    "typescript": "^4.6.4"
+  },
   "devDependencies": {
-    "lite-server": "^2.3.0"
+    "@types/node": "^17.0.31"
   }
 }

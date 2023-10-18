@@ -1,0 +1,170 @@
+﻿[
+    {
+      "id": 0,
+      "name": "Createathon 2023",
+      "picture": "images/token1.png",
+      "category": "Hackathon",
+      "code": "HACK_1",
+      "DATE":"202310",
+      "description": "Bring new ideas and proof of concepts to life",
+      "claimed": false
+    },
+    {
+      "id": 1,
+      "name": "CFMR",
+      "picture": "images/token2.png",
+      "category": "External Conference",
+      "code": "ECONRF_3",
+      "DATE":"202310",
+      "description": "Gathering of government and industry",
+      "claimed": false
+
+    },
+    {
+      "id": 2,
+      "name": "DC Central Kitchen",
+      "picture": "images/token3.png",
+      "category": "Volunteer",
+      "code": "VLTR_1",
+      "DATE":"202310",
+      "description": "Assisting the DC Cental Kitchen with food preparation",
+      "claimed": false
+
+    },
+     {
+      "id": 3,
+      "name": "AWS Conference",
+      "picture": "images/token3.png",
+      "category": "External Conference",
+      "code": "ECONFR_1",
+      "DATE":"202310",
+      "description": "AWS user conference showcasing products and demos.",
+      "claimed": false
+
+    },
+    {
+      "id": 4,
+      "name": "ACFE Fraud Conference",
+      "picture": "images/token3.png",
+      "category": "External Conference",
+      "code": "ECONFR_2",
+      "DATE":"202310",
+      "description": "Premier conference for anti-fraud training and education",
+      "claimed": false
+
+    },
+    {
+      "id": 5,
+      "name": "FINRA Annual Conference",
+      "picture": "images/token3.png",
+      "category": "External Conference",
+      "code": "ECONFR_4",
+      "DATE":"202310",
+      "description": "Regulation focused event for regulators and industry.",
+      "claimed": false
+
+    },
+    {
+      "id": 6,
+      "name": "Squad Expo",
+      "picture": "images/token3.png",
+      "category": "Internal Conference",
+      "code": "CONFR_1",
+      "DATE":"202310",
+      "description": "Quality Assurance tools focused conference.",
+      "claimed": false
+
+    },
+    {
+      "id": 7,
+      "name": "Big Data Conference",
+      "picture": "images/token3.png",
+      "category": "Internal Conference",
+      "code": "CONFR_2",
+      "DATE":"202310",
+      "description": "Topics and demos showing solutions at scale.",
+      "claimed": false
+
+    },
+    {
+      "id": 8,
+      "name": "FINRA BOTS",
+      "picture": "images/token3.png",
+      "category": "Hackathan",
+      "code": "HACK_2",
+      "description": "Splunk facilitated Boss of the SOC.",
+      "claimed": false
+
+    },
+    {
+      "id": 9,
+      "name": "Manna Food Center",
+      "picture": "images/token3.png",
+      "category": "Volunteer",
+      "code": "VLTR_2",
+      "description": "Helping gather fresh produce for donation to Manna.",
+      "claimed": false
+
+    },
+    {
+      "id": 10,
+      "name": "Maryland Food Bank",
+      "picture": "images/token3.png",
+      "category": "Volunteer",
+      "code": "VLTR_3",
+      "description": "Sort and pack donations for Maryland Food Bank",
+      "claimed": false
+
+    },
+    {
+      "id": 11,
+      "name": "Adventist HealthCare",
+      "picture": "images/token3.png",
+      "category": "Volunteer",
+      "code": "VLTR_4",
+      "description": "Events supporting the Shady Grove Hospital Pediatrics Center",
+      "claimed": false
+
+    },
+    {
+      "id": 12,
+      "name": "Team Picnic",
+      "picture": "images/token3.png",
+      "category": "Team Activity",
+      "code": "TEAM_1",
+      "description": "Organize and Volunteer for Team Picnic",
+      "claimed": false
+
+    },
+    {
+      "id": 13,
+      "name": "YearEnd Team holiday party",
+      "picture": "images/token3.png",
+      "category": "Team Activity",
+      "code": "TEAM_2",
+      "description": "Organize Year End Holiday Party",
+      "claimed": false
+
+    },
+    {
+      "id": 14,
+      "name": "Holiday potluck",
+      "picture": "images/token3.png",
+      "category": "Team Activity",
+      "code": "TEAM_3",
+      "description": "Organize holiday team potluck",
+      "claimed": false
+
+    },
+    
+    {
+      "id": 15,
+      "name": " Finra Family Network",
+      "picture": "images/token3.png",
+      "category": "ERG",
+      "code": "VLTR_2",
+      "description": "Member and contributor to Finra Family Network",
+      "claimed": false
+
+    }
+  ]
