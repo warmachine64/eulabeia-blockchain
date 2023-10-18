@@ -15,6 +15,7 @@ import Typography from "@mui/material/Typography";
 import Grid from "@mui/material/Grid";
 import listBadges from "./pets.json";
 import { Container } from "@mui/material";
+import TruffleContract from "truffle-contract"
 
 function App() {
   const [currentAccount, setCurrentAccount] = useState(null);
@@ -116,7 +117,6 @@ function App() {
       >
         Connect Wallet
       </button>
-      
     );
   };
 
@@ -148,18 +148,19 @@ function App() {
         const accounts = await web3.eth.getAccounts();
         const networkId = await web3.eth.net.getId();
         const deployedNetwork = AdoptionContract.networks[networkId];
-        const abcontractAddress =
+        const adcontractAddress =
           AdoptionContract.networks[await web3.eth.net.getId()].address;
-        const contract = new web3.eth.Contract(
+        let contract = new web3.eth.Contract(
           AdoptionContract.abi,
-          abcontractAddress
+          adcontractAddress
         );
 
         setWeb3(web3);
         setAccounts(accounts);
         setContract(contract);
         setPets(listBadges);
-        markAdopted();
+      
+        await markAdopted();
         console.log(adopters);
       } catch (error) {
         console.error("Error loading web3, accounts, or contract:", error);
@@ -168,8 +169,6 @@ function App() {
 
     initApp();
   }, []);
-
-
 
   // const markAdopted = () => {
   //   adContract.methods
@@ -183,42 +182,61 @@ function App() {
   //     });
   // };
 
-  const markAdopted = () => {
-    const { adContract, pets } = this.state;
+  const markAdopted = async () => {
+    console.log("updated adopter");
+    // if (adContract) {
+    //   await adContract.methods
+    //     .getAdopters()
+    //     .call()
+    //     .then((adopters) => {
+    //       console.log(adopters);
+    //       const updatedPets = pets.map((pet, index) => {
+    //         return {
+    //           ...pet,
+    //           isAdopted:
+    //             adopters[index] !==
+    //             "0x0000000000000000000000000000000000000000",
+    //         };
+    //       });
+    //       setPets(updatedPets);
+    //     })
+    //     .catch((error) => {
+    //       console.error(error);
+    //     });
+    // }
     if (adContract) {
-      adContract.methods
-        .getAdopters()
-        .call()
-        .then((adopters) => {
-          console.log(adopters);
-          const updatedPets = pets.map((pet, index) => {
-            return {
-              ...pet,
-              isAdopted:
-                adopters[index] !==
-                "0x0000000000000000000000000000000000000000",
-            };
-          });
-          setPets(updatedPets);
-        })
-        .catch((error) => {
-          console.error(error);
-        });
+      const adopters = await adContract.methods.getAdopters().call();
+      console.log(adopters);
+      setAdopters(adopters);
     }
   };
 
-  const handleAdopt = (petId) => {
-    console.log(adopters);
+  const handleAdopt = async (petId) => {
+    // const { adContract, adopters } = this.state;
 
-    adContract.methods
-      .adopt(petId)
-      .send({ from: accounts[0] })
-      .on("receipt", () => {
-        markAdopted();
-      })
-      .on("error", (error) => {
-        console.error(error);
-      });
+    console.log(adContract);
+    console.log(petId);
+    console.log(accounts[0]);
+
+    await adContract.methods.adopt(petId).send({ from: accounts[0] });
+    markAdopted();
+    // .on("receipt", () => {
+    //   markAdopted();
+    //   console.log("updated adopter");
+
+    //   adContract.methods
+    //     .getAdopters()
+    //     .call()
+    //     .then((adopters) => {
+    //       console.log(adopters);
+    //     })
+    //     .catch((error) => {
+    //       console.error(error);
+    //     });
+    // })
+    // .on("error", (error) => {
+    //   console.error(error);
+    // });
   };
 
   return (
@@ -252,15 +270,15 @@ function App() {
                       disabled={data.claimed}
                       variant="contained"
                       size="small"
-                      onClick={() => handleAdopt(1)}
+                      onClick={() => handleAdopt(index)}
                     >
                       Claim
                     </Button>
-                    {/* {adopters[index] ===
+                    {/* {adopters[index] !==
                     "0x0000000000000000000000000000000000000000" ? (
-                      <button onClick={() => handleAdopt(index)}>Adopt</button>
-                    ) : (
                       <p>Claimed</p>
+                    ) : (
+                      <Button onClick={() => handleAdopt(index)}>Adopt</Button>
                     )} */}
                   </Box>
                 </Card>
